@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background: url(HD-wallpaper-zelda-the-legend-of-zelda-landscape-link-the-legend-of-zelda.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000033;
+}
+header {
+  color: #603E3E;
+  padding: 20px;
+  text-align: center;
+  height: 150px;
+}
+h1{
+  padding: 35px;
+}
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgb(255 255 255 / 50%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.showcase {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+.showcase:last-child {
+  border-bottom: none;
+}
+.showcase h3 {
+  margin-top: 0;
+}
+.hidden{
+  display: none;
+}
+button {
+  width: 320px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid brown;
+  background: transparent;
+  color: brown;
+  border-radius: 5px;
+}
+  
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.1);
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color: brown;
+}
+.meme-content{
+  width: 200px;
+}
+img{
+  width: 300px;
+  padding-left: 250px;
+}
